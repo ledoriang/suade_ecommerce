@@ -1,0 +1,22 @@
+- Update README.md
+- Update requirements.txt
+- Create Tests
+- Create Docs
+
+Potential Futrue To-DO's:
+- Create a Docker image that would spin up an image of the app with the necessary dependencies
+- Scalability:
+    - Use rabbitmq for message queue and celery for task enqueueing
+    - If the applications had more views and routes, use flask blueprints and an application factory
+
+
+Tests:
+- ENDPOINT TESTING
+    - If a date is supplied that is not in the DB
+    - A correct date
+
+Notes:
+- DB:
+    Typically the referred DB in your config file would point to different DB instancces, but for this example we will use the same DB instance.
+
+
